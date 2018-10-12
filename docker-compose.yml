@@ -1,0 +1,6 @@
+version: '3'
+services:
+  page_static:
+    build: ./page_static
+    ports:
+      - "8080:80"
